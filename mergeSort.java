@@ -28,7 +28,7 @@ public class mergeSort{
             leftHalf[i] = inputArray[i];
         }
         for (int i = midIndex; i < length; i++) {
-            rightHalf[i - midIndex] = inputArray[i]; // Corrected indexing
+            rightHalf[i - midIndex] = inputArray[i];
         }
     
         mergeSort(leftHalf);
